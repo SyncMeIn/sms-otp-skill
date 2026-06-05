@@ -47,10 +47,12 @@
 
 **使用案例：**
 
+帮我接收 182****3579 最新的爱快云验证码
 ![帮我接收 182****3579 最新的爱快云验证码](https://oray.kainy.cn:38002/https://oray.kainy.cn:38400/_upload/./content/temp/2026/06/mq0phtgc.webp)
 
 <br/>
 
+帮我使用手机号码  182****3579  otp 登录 https://www.sohu.com 网站
 ![帮我使用手机号码  182****3579  otp 登录 https://www.sohu.com 网站](https://oray.kainy.cn:38002/https://oray.kainy.cn:38400/_upload/./content/temp/2026/06/mq0pglo2.webp)
 
 ---
@@ -63,7 +65,7 @@
 
 首次使用时，系统会提示你提供 API Token。提供后自动存入记忆，后续无需重复输入。
 
-> 💡 **Token 来源**：登录 [sms.gqmg.com](https://sms.gqmg.com) 后在个人中心获取。
+> 💡 **Token 来源**：登录 [sms.gqmg.com](https://sms.gqmg.com/landing/) 后在个人中心获取。
 
 ### 2. 发起验证码接收
 
@@ -108,11 +110,6 @@
 本 Skill 会读取短信内容，其中可能包含敏感信息（验证码、银行通知等）。请确保：
 - 仅对自己拥有授权的手机号使用
 - 不要将他人手机号用于非授权场景
-
-### 🟠 服务依赖风险
-
-- 轮询依赖 sms.gqmg.com 的服务可用性，API 故障将导致无法获取验证码
-- 免费账户可能存在请求频率限制或余额不足的情况
 
 ---
 
