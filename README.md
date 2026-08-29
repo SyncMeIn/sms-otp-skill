@@ -41,19 +41,21 @@
 
 ### 典型工作流
 
-1. 📱 在目标页面填入手机号，点击「发送验证码」
-2. 🤖 调用本 Skill 启动轮询，等待短信到达
-3. ✅ 获取验证码后自动填入输入框，完成验证
+1. 📱 Agent 执行爬取任务时，遇到需要手机验证码验证场景。例如注册快手，在注册页面填入手机号，点击「发送验证码」
+2. 🤖 调用本 Skill 启动轮询，等待短信到达。
+3. ✅ 获取验证码后自动填入输入框，完成验证，注册后继续爬取任务。
 
 **使用案例：**
 
-帮我接收 182****3579 最新的爱快云验证码
-![帮我接收 182****3579 最新的爱快云验证码](https://oray.kainy.cn:38002/https://oray.kainy.cn:38400/_upload/./content/temp/2026/06/mq0phtgc.webp)
+执行任务重，遇到验证码验证，填入手机号
+
+![](https://s.gqmg.com/https://oray.kainy.cn:38400/_upload/./content/temp/2026/08/mteo6wwj.webp)
+
 
 <br/>
 
-帮我使用手机号码  182****3579  otp 登录 https://www.sohu.com 网站
-![帮我使用手机号码  182****3579  otp 登录 https://www.sohu.com 网站](https://oray.kainy.cn:38002/https://oray.kainy.cn:38400/_upload/./content/temp/2026/06/mq0pglo2.webp)
+通过本 skill 获取验证码后，填写并完成验证，继续任务
+![帮我使用手机号码  182****3579  otp 登录 https://www.sohu.com 网站](https://s.gqmg.com/https://oray.kainy.cn:38400/_upload/./content/temp/2026/06/mq0pglo2.webp)
 
 ---
 
